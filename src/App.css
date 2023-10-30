@@ -1,38 +1,330 @@
-.App {
-  text-align: center;
+
+.profile
+{
+  background-color: #f5f5f59c;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+background-color: #edf5fa !important;
+}
+.nav-item {
+  color: #343f52;
+  font-weight: 600;
+  font-family: revert;
+  margin-top: 5px;
+  letter-spacing: -0.01rem;
+  padding: 8px;
+  padding-left: 24px;
+}
+.nav-link
+{
+  padding: 0px !important;
+}
+.navbar-nav
+{
+  padding: 0px;
+}
+.nav-item .btn-hire
+{
+  font-size: 15px;
+  border-radius: 25px 25px 25px 25px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-weight: 600;
+    background-color: #5271FF;
+}
+.hire
+{
+position: relative;
+bottom: 5px;
+}
+.sidebar
+{
+  margin-top: 60px;
+  width: max-content;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sidebar-items
+{ 
+  position: relative;
+  right: 15px;
+  display: block !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar-link
+{
+  color: #343f52;
+  font-weight: 200;
+  text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;
+}
+.input-field
+{
+  margin-top: 55px;
+    width: 100%;
+    border: 2px solid #f8f3f3;
+    padding: 13px;
+    border-radius: 5px;
+}
+.input-field:focus-visible
+{
+  outline: 2px solid #5271ff5e !important;
+ 
+}
+.card
+{
+  margin-top: 25px;
+    border: none !important;
+    box-shadow: black;
+    box-shadow: 0 0px 3px rgba(0, 0, 0, 0.2), 0 5px 0px 0 rgba(0, 0, 0, 0.10);
+    
+}
+.card-image
+{
+  border-radius: 50%;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 15px;
+    box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 5px 3px 0 rgba(0, 0, 0, 0.18)
+}
+.text-of-card
+{
+  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0px;
+}
+.pills
+{
+  margin: 10px;
+ 
+}
+.card-pills
+{
+  display: inline-block;
+  font-size: 11px;
+    border: 1px solid #006AFF;
+    padding: 0px 8px;
+    border-radius: 10px;
+    margin-left: 15px;
+  width: auto;
+}
+.profile-card-title
+{
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  margin-left: 20px;
+}
+.card-name
+{
+  margin-right: 5px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.card-description
+{
+  font-size: 13px ;
+    margin: 15px;
+    color: black;
+    word-break: break-all;
+    font-weight: 400;
+}
+.card-industries
+{
+  color: black;
+    font-size: 12px;
+    margin-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    margin-left: 15px;
+}
+.text-center
+{
+  padding: 10px;
+    color: black;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+a
+{
+  text-decoration: none !important;
+}
+#pagination {
+  box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.18)
+}
+.pagination .page-link {
+  width: 3rem;
+  height: 3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.page-link {
+  position: relative;
+  display: block;
+  color: #343f52 !important;
+  background-color: #fff;
+  
+}
+.page-link:focus {
+  z-index: 3;
+  color: #343f52 !important ;
+  background-color:  #fff !important;
+  outline: 0 !important;
+  box-shadow:none !important;
+}
+.page-link.active, .active > .page-link
+{
+  background-color: #6e88ff !important;
+  border-color: #6e88ff !important;
+}
+.footer-section
+{
+  background-color: black;
+  padding-top: 3.5rem !important;
+  padding-bottom: 3.5rem !important;
   color: white;
+  
+}
+.footer-logo
+{
+  width: 215px;
+}
+.footer-links
+{
+  color: lightgray !important;
+}
+#footer-second {
+  text-align: right;
+  color: lightgray;
+}
+.footer-items
+{
+  border-bottom: 3px solid gray;
+}
+.info 
+{
+  background-color: #d3d3d321;
+  padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+    margin-top: 3rem;
+}
+.info-header
+{
+  line-height: 1.45;
+  margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #343f52;
+    word-spacing: 0.1rem;
+    letter-spacing: -0.01rem;
+}
+.info-p
+{
+  word-spacing: 1.5px;
+  word-break: break-word;
+  width: 75%;
+  color: #525151;
+}
+.solid-mono.text-navy .fill-secondary {
+  fill: #c2c5cb;
+}
+.solid-mono.text-navy .fill-primary {
+  fill: #343f52;
+}
+.icon-svg.icon-svg-sm {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+.pagination-section
+{
+  margin-top: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+#profile-title
+{
+  --bs-text-opacity: 1;
+  color: #aab0bc !important;
+}
+.uid {
+  font-size: 13px;
+  color: red;
+  font-weight: normal;
+  margin-left: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.text-green {
+  --bs-text-opacity: 1;
+  color: #45c4a0 !important;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.text-dark {
+  --bs-text-opacity: 1;
+  color: #343f52 !important;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+#profile-bio {
+  font-size: 18px;
+  word-wrap: break-word;
+  color: #636466 !important;
+}
+
+
+
+.skill-pill
+{
+  font-size: 13px;
+  border: 1px solid #006AFF;
+  padding: 4px 4px 4px 4px;
+  border-radius: 10px;
+  margin-left: 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.subsection-2 {
+  display: flex;
+  justify-content: center;
+}
+#project-title::before {
+  content: "";
+  position: relative;
+  top: 16px;
+  right: 15px;
+  height: 8px;
+  width: 8px;
+  background-color: black;
+  font-size: 28px;
+  border-radius: 50%;
+  display: block;
+}
+#project-details
+{
+  padding-left: 20px;
+  border-left: 1px dashed black;
+  word-wrap: break-word;
+  margin-bottom: 3rem;
+}
+.bottom-footer
+{
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
+}
+.join-sec
+{
+  padding-right: 2.5rem !important;
+  padding-left: 2.5rem !important;
 }

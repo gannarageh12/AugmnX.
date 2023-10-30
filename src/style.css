@@ -1,0 +1,87 @@
+.forgot-flex-container
+{
+     background-color: #edf5fa !important;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px;
+    flex-direction: column;
+}
+.forgot-flex-item
+{
+    background-color: #ffffffba;
+    padding: 50px 60px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 0.4rem !important;
+    
+}
+.form-control
+{
+    margin-bottom: 1.5rem;
+    height: 48px;
+}
+
+.text
+{
+    margin-bottom: 2.5rem;
+   
+    text-align: center;
+}
+#email , #password
+{
+border: 1px solid #e9e9e9;
+
+}
+.submit-btn
+{
+    width: 100%;
+    height: 48px;
+    margin-top: 15px;
+}
+.text-primary
+{
+    font-weight: 600 !important;
+    font-size: 17px;
+}
+#create-account
+{
+    text-align: center;
+    color: #60697b;
+}
+#contactUs
+{
+    text-align: center;
+    color: #60697b; 
+}
+.errmsg
+{
+    color: red;
+    text-align: center;
+}
+#hire
+{
+    font-family: "DM Serif Display";
+    font-weight: 600 !important;
+    word-spacing: normal !important;
+    letter-spacing: normal !important;
+    line-height: 1.2;
+    font-size: 45px;
+    color: #343f52;
+}
+.signup
+{
+    background-color: #edf5fa !important;
+}
+.lead
+{
+    
+    color: #516078;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    padding: 0px !important;
+}
+.signup-submit
+{
+    padding: 10px 25px 11px 25px !important;
+    font-weight: 500 !important;
+}
